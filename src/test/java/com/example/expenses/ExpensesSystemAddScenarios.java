@@ -1,8 +1,8 @@
 package com.example.expenses;
 
-import com.example.expenses.application.ExpensesSystem;
-import com.example.expenses.domain.Expense;
-import com.example.expenses.domain.exceptions.ExpenseAlreadyExists;
+import com.kukit.platform.expenses.application.ExpensesSystem;
+import com.kukit.platform.expenses.domain.Expense;
+import com.kukit.platform.expenses.domain.exceptions.ExpenseAlreadyExists;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.DisplayNameGenerator;
@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;
 
-import static com.example.expenses.application.ExpensesSystemConfiguration.expensesSystem;
+import static com.kukit.platform.expenses.application.ExpensesSystemConfiguration.expensesSystem;
 import static org.assertj.core.api.Assertions.catchThrowable;
 import static org.assertj.core.api.BDDAssertions.then;
 
