@@ -1,4 +1,4 @@
-package com.example.expenses;
+package com.kukit.platfom.expenses;
 
 import com.kukit.platform.expenses.application.ExpensesSystem;
 import com.kukit.platform.expenses.domain.Expense;
